@@ -1,0 +1,96 @@
+body{
+    background-image: linear-gradient(to bottom right, #33475b, #0033CC, #FF77CC, rgb(255, 122, 89)); 
+    background-position: 400% 400%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+html {height: 100%;}
+
+.nav{
+    color: #6F61C0;
+}
+
+body{
+    color: #F6F4EB;
+    font-family: 'Lucida Sans';
+}
+
+header {
+    min-height: 10vh;
+}
+main {
+    min-height: 80vh;
+}
+footer {
+    min-height: 10vh;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+
+*{box-sizing:border-box;}
+#card1{
+    color: #F6F4EB;
+    display:block;
+    margin:auto;
+    margin-top: 25px;
+    border-radius: 15px ;
+    width: 30%; 
+    box-shadow: 3px 3px 5px #3c70cb;
+    background-color:rgb(162, 196, 231);
+    text-align: center;        
+}
+
+form{
+	width:30%;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+	background-color: #E8A9A9;
+}
+
+form label{
+	width:72px;
+	font-weight:bold;
+	display:block;
+}
+
+form input[type="text"],
+form input[type="email"]{
+	width:80%;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+}
+
+form input[type="submit"]{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #46458C;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#46458C;
+} 
+
+form input[type="submit"]:hover{
+	cursor:pointer;
+}
+
+form textarea{
+	width:100%;
+	height:100px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;			
+	margin:8px 0;
+	resize:none;
+	display:block;
+}
